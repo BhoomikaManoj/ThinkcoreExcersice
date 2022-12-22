@@ -1,0 +1,11 @@
+.container #clock {
+    font-family: system-ui;
+    color: rgb(167, 39, 167);
+    /* text-align: center; */
+  }
+
+.containers{
+    border: 2px soli;
+    margin-top: 60px;
+    margin-left: 120px;
+}
