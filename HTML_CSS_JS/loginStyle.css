@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    border: 3px solid #f1f1f1;
+    width: 45%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: darkblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
+
+h2 {
+    color: darkblue;
+    margin-left: 30px;
+}
+
+label{
+    color: darkblue;
+}
+
+::placeholder { 
+    color: darkblue;
+}

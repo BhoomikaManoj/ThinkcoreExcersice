@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="registerStyle.css" type="text/css">
+
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+
+<body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+   
+    <form action="#" method="post" >
+        <!-- <i class="fas fa-paper-plane"></i> -->
+        <h2>SIGN UP</h2>
+
+        <div class="container">
+            <div class="input-group">
+                <input type="text" placeholder="First Name" name="firstName" id="firstName" autofocus required="Please fill out this field." onkeyup="validateName()" >
+                <span id = "name-error"></span>
+            </div>
+            <div class="input-group">
+                <input type="text" placeholder="Last Name" name="lastName" id="lastName" autofocus required onkeyup="validateLastName()" >
+                <span id = "lastName-error"></span>
+            </div>
+            <div class="input-group">
+                <input type="email" placeholder="Email Address" name="email" id="email"autofocus required onkeyup="validateEmail()" >
+                <span id = "email-error"></span>
+            </div>
+            <div class="input-group">
+                <input type="text" placeholder="Register Number" name="registerNumber" id="registerNumber" autofocus required onkeyup="validateRegisterNumber()" >
+                <span id = "registerNumber-error"></span>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Password" name="psw" id="psw" autofocus required onkeyup="validatePassword()" >
+                <span id = "password-error"></span>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Confirm Password" name="confirmPassword" id="confirmPassword" autofocus required onkeyup="validateConfirmPassword()">
+                <span id = "confirmPassword-error"></span>
+            </div>
+            <br>
+
+            <label>
+                <input type="checkbox" unchecked="checked" name="remember" required> ACCEPT TERMS AND CONDITIONS
+            </label>
+            <br>
+
+            <button type="submit" onClick="f1()" id="register">SIGN UP</button>
+
+        </div>
+
+    </form>
+    <script src="validation.js"></script>
+</body>
+
+</html>

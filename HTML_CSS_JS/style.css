@@ -1,0 +1,23 @@
+table, th, td {
+    border: 1px solid; 
+    table-layout: auto;
+    width: 400px; 
+    height: 50px;
+    
+  }
+
+  .tableDesign{
+
+    background: 
+    linear-gradient(white 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, #b1aeb1, #e4e3e3) border-box;
+  color: #313149;
+  
+  border: 5px solid transparent;
+  
+  display: inline-block;
+  margin: 75px 500px;
+
+  }
+
+  
