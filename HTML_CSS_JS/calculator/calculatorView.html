@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="calculatorStyle.css" type="text/css">
 
@@ -17,36 +18,36 @@
     <div class="container"> <h1>CALCULATOR</h1></div>
     <div class="calculator card">
        
-        <input type="text" class="calculator-screen z-depth-1" value="" disabled />
+        <input type="text" class="calculator-screen z-depth-1" id='result' value="" disabled />
       
         <div class="calculator-keys">
       
-          <button type="button" class="operator btn btn-info" value="+">+</button>
-          <button type="button" class="operator btn btn-info" value="-">-</button>
-          <button type="button" class="operator btn btn-info" value="*">&times;</button>
-          <button type="button" class="operator btn btn-info" value="/">&divide;</button>
+          <button type="button" class="operator btn btn-info" value="+" onClick="display('+')">+</button>
+          <button type="button" class="operator btn btn-info" value="-" onClick="display('-')">-</button>
+          <button type="button" class="operator btn btn-info" value="*" onClick="display('*')">&times;</button>
+          <button type="button" class="operator btn btn-info" value="/" onClick="display('/')">&divide;</button>
       
-          <button type="button" value="7" class="btn btn-light waves-effect">7</button>
-          <button type="button" value="8" class="btn btn-light waves-effect">8</button>
-          <button type="button" value="9" class="btn btn-light waves-effect">9</button>
-          <button type="button" class="operator btn btn-info" value="%">%</button>
-      
-      
-          <button type="button" value="4" class="btn btn-light waves-effect">4</button>
-          <button type="button" value="5" class="btn btn-light waves-effect">5</button>
-          <button type="button" value="6" class="btn btn-light waves-effect">6</button>
+          <button type="button" value="7" class="btn btn-light waves-effect" onClick="display('7')">7</button>
+          <button type="button" value="8" class="btn btn-light waves-effect" onClick="display('8')">8</button>
+          <button type="button" value="9" class="btn btn-light waves-effect" onClick="display('9')">9</button>
+          <button type="button" class="operator btn btn-info" value="%" onClick="display('%')">%</button>
       
       
-          <button type="button" value="1" class="btn btn-light waves-effect">1</button>
-          <button type="button" value="2" class="btn btn-light waves-effect">2</button>
-          <button type="button" value="3" class="btn btn-light waves-effect">3</button>
+          <button type="button" value="4" class="btn btn-light waves-effect" onClick="display('4')">4</button>
+          <button type="button" value="5" class="btn btn-light waves-effect" onClick="display('5')">5</button>
+          <button type="button" value="6" class="btn btn-light waves-effect" onClick="display('6')">6</button>
       
       
-          <button type="button" value="0" class="btn btn-light waves-effect">0</button>
-          <button type="button" class="decimal function btn btn-secondary" value=".">.</button>
-          <button type="button" class="all-clear function btn btn-danger btn-sm" value="all-clear">AC</button>
+          <button type="button" value="1" class="btn btn-light waves-effect" onClick="display('1')">1</button>
+          <button type="button" value="2" class="btn btn-light waves-effect" onClick="display('2')">2</button>
+          <button type="button" value="3" class="btn btn-light waves-effect" onClick="display('3')">3</button>
       
-          <button type="button" class="equal-sign operator btn btn-default" value="=">=</button>
+      
+          <button type="button" value="0" class="btn btn-light waves-effect" onClick="display('0')">0</button>
+          <button type="button" class="btn btn-light waves-effect" value="." onClick="display('.')">.</button>
+          <button type="button" class="all-clear function btn btn-danger btn-sm" value="all-clear" onclick="clearScreen()" >AC</button>
+      
+          <button type="button" class="equal-sign operator btn btn-light" value="=" onClick="solve()">=</button>
       
         </div>
       </div>

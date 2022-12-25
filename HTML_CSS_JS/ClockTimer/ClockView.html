@@ -12,19 +12,39 @@
 
     <link rel="stylesheet" href="ClockTimerStyle.css" type="text/css">
 
+    l
+
 </head>
 
 <body>
     <div class="container">
-        <h5>DIGITAL CLOCK</h5>
+        <h1>DIGITAL CLOCK</h1>
         <div id="clock" onload="currentTime()"></div>
     </div>
 
-    <div class="containers">
-        <h4>TIMER</h4>
-        <input type="number" id="timerSecond" placeholder="Enter timer second" required="only numbers">
-        <button onclick="start()">Start</button><br>
-        Time Statrs : <span id="count"></span>
+    <div class="container">
+        <h1>Stop Watch</h1>
+        <div id="time">
+            <span class="digit" id="hr">
+              00</span>
+            <span class="txt">Hr</span>
+            <span class="digit" id="min">
+              00</span>
+            <span class="txt">Min</span>
+            <span class="digit" id="sec">
+              00</span>
+            <span class="txt">Sec</span>
+            <span class="digit" id="count">
+              00</span>
+        </div>
+        <div id="buttons">
+            <button class="btn" id="start">
+              Start</button>
+            <button class="btn" id="stop">
+              Stop</button>
+            <button class="btn" id="reset">
+              Reset</button>
+        </div>
     </div>
 
     <script src="ClockTimerValidations.js"></script>
