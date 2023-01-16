@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Question Paper</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="MockTestStyle.css" type="text/css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <a class="nav-link" href="MockTest.html" style="font-size: 30px;">Test</a>
+    </div>
+
+    <div class="col-md-9">
+        <div>
+            <h4>
+                Enter the Question
+            </h4>
+            <textarea name="" id="question" cols="100" rows="7" required></textarea>
+            <span id="errortextarea" class="text-danger">
+
+            </span>
+        </div>
+        <div class="mt-3">
+            <h4>
+                Options
+            </h4>
+            <div class=" w-75">
+                <div class="d-flex my-4">
+                    <h6 class="col-md-3">A</h6>
+                    <div class="col-md-6">
+                        <input class="col-md-12" type="text" id="inputA" required>
+                        <span class="text-danger" id="errorA"></span>
+                    </div>
+                    <input type="radio" name="option" value="0" class="ms-5">
+                </div>
+                <div class="d-flex my-4">
+                    <h6 class="col-md-3">B</h6>
+                    <div class="col-md-6">
+                        <input type="text" id="inputB" class="col-md-12" required>
+                        <span class="text-danger" id="errorB"></span>
+                    </div>
+                    <input type="radio" name="option" value="1" class="ms-5">
+                    <span></span>
+                </div>
+                <div class="d-flex my-4">
+                    <h6 class="col-md-3">C</h6>
+                    <div class="col-md-6">
+                        <input type="text" id="inputC" class="col-md-12" required>
+                        <span class="text-danger" id="errorC"></span>
+                    </div>
+                    <input type="radio" name="option" value="2" class="ms-5">
+                </div>
+                <div id="addRadioButton">
+
+                </div>
+                <div class="float-end">
+                    <button class="btn btn-primary" id="button1" onclick="addoption(1)">Add Option</button>
+                    <button class="btn btn-dark" id="button2" onclick="addoption(-1)">Remove</button>
+                </div>
+                <div class="float-end" style="width:12%;">
+                    <button class="btn btn-primary" id="button3" onclick="submitQuestions()">Submit</button>
+                </div>
+                <span id="count" style="visibility:hidden">
+                    1
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="MockTestValidations.js"></script>
+</body>
+
+</html>

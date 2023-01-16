@@ -1,0 +1,31 @@
+.col-md-9{
+    margin-left: 10%;
+}
+
+#button1{
+    font-size: 14px;
+    padding: 4px 15px;
+    border-radius: 4px;
+    height: 10%;
+}
+#button2{
+    font-size: 14px;
+    padding: 4px 15px;
+    visibility:hidden;
+    height: 10%;
+}
+
+#button3{
+    font-size: 14px; 
+    padding: 4px 15px;
+    border-radius: 4px;
+    height: 10%;
+    
+}
+
+.container #TestButton{
+    margin-top: 10px;
+    padding: 5px 50px;
+    border: 0px;
+    border-radius: 5px;
+}
