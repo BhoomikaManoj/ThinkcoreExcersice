@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ContactsAPI",
+    "\\ContactsAPI\\Controllers",
+    "\\ContactsAPI\\Models"
+  ],
+  "SelectedNode": "\\ContactsAPI\\Controllers\\ContactsController.cs",
+  "PreviewInSolutionExplorer": false
+}

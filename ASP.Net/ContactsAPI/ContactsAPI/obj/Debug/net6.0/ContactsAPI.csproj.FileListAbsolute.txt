@@ -1,0 +1,13 @@
+C:\Users\Bhoomika\source\repos\ContactsAPI\ContactsAPI\bin\Debug\net6.0\ContactsAPI.exe
+C:\Users\Bhoomika\source\repos\ContactsAPI\ContactsAPI\bin\Debug\net6.0\ContactsAPI.dll
+C:\Users\Bhoomika\source\repos\ContactsAPI\ContactsAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Bhoomika\source\repos\ContactsAPI\ContactsAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Bhoomika\source\repos\ContactsAPI\ContactsAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Bhoomika\source\repos\ContactsAPI\ContactsAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Bhoomika\source\repos\ContactsAPI\ContactsAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Bhoomika\source\repos\ContactsAPI\ContactsAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Bhoomika\source\repos\ContactsAPI\ContactsAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Bhoomika\source\repos\ContactsAPI\ContactsAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Bhoomika\source\repos\ContactsAPI\ContactsAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Bhoomika\source\repos\ContactsAPI\ContactsAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Bhoomika\source\repos\ContactsAPI\ContactsAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
